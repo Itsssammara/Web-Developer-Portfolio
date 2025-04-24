@@ -23,7 +23,7 @@ export default function Footer() {
               <path d="M4 4l8 8 8-8" />
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" className="hover:text-pink-400 transition-colors">
+          <a href="www.linkedin.com/in/ammara-hoosen" target="_blank" className="hover:text-pink-400 transition-colors">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M16 8a6 6 0 016 6v6h-4v-6a2 2 0 00-4 0v6h-4v-6a6 6 0 016-6zM2 9h4v12H2z" />
               <circle cx="4" cy="4" r="2" />

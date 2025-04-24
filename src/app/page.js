@@ -11,6 +11,13 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const projects = [
   {
+    title: "The Olive Café",
+    description:
+      "Collaborated with a group to capture the charm of a local café through warm tones, a clean layout, and a seamless cross-device experience",
+    image: "/olivec.png",
+    link: "https://the-olive-cafe.netlify.app/"
+  },
+  {
     title: "Baked by A",
     description:
       "Contributed to a group collaboration on a sweet online home for a local baker — featuring delicious bakes, order info, and a personal touch.",
@@ -23,13 +30,6 @@ const projects = [
       "Part of a team effort to build a professional website for a retirement coach, designed to simplify finances with trust-building visuals and a clean UI.",
     image: "/retire.png",
     link: "https://retiresmart.co.za/"
-  },
-  {
-    title: "The Olive Café",
-    description:
-      "Collaborated with a group to capture the charm of a local café through warm tones, a clean layout, and a seamless cross-device experience",
-    image: "/olivec.png",
-    link: "https://the-olive-cafe.netlify.app/"
   },
 ];
 
@@ -75,10 +75,10 @@ export default function Home() {
     </div>
         {/* Left (Icons) */}
         <div className="flex justify-center sm:justify-start sm:flex-col items-center sm:items-start gap-4">
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 text-2xl">
+      <a href="https://github.com/Itsssammara" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 text-2xl">
         <FaGithub />
       </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 text-2xl">
+      <a href="www.linkedin.com/in/ammara-hoosen" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 text-2xl">
         <FaLinkedin />
       </a>
     </div>
