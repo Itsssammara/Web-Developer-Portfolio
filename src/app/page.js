@@ -22,7 +22,7 @@ const projects = [
     description:
       "Part of a team effort to build a professional website for a retirement coach, designed to simplify finances with trust-building visuals and a clean UI.",
     image: "/retire.png",
-    link: "https://bakedbya.vercel.app"
+    link: "https://retiresmart.co.za/"
   },
   {
     title: "The Olive Café",
