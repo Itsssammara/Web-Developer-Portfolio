@@ -25,7 +25,7 @@ const projects = [
     link: "https://baked-by-a.vercel.app/"
   },
   {
-    title: "Retiresmart",
+    title: "Retire Smart",
     description:
       "Part of a team effort to build a professional website for a retirement coach, designed to simplify finances with trust-building visuals and a clean UI.",
     image: "/retire.png",
