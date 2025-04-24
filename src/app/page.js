@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Image from 'next/image';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -13,21 +14,21 @@ const projects = [
     title: "Baked by A",
     description:
       "A sweet online home for a local baker — featuring delicious bakes, order info, and a personal touch.",
-    image: "/bakedbya.png",
+    image: "/bba.png",
     link: "https://baked-by-a.vercel.app/"
   },
   {
     title: "Retiresmart",
     description:
       "Professional website for a retirement coach. Designed to simplify finances with trust-building visuals and clean UI.",
-    image: "/retiresmart.png",
+    image: "/retire.png",
     link: "https://bakedbya.vercel.app"
   },
   {
     title: "The Olive Café",
     description:
       "Captures the charm of a local café with warm tones, a clean layout, and a smooth browsing experience across devices.",
-    image: "/theolivecafe.png",
+    image: "/olivec.png",
     link: "https://the-olive-cafe.netlify.app/"
   },
 ];
@@ -287,7 +288,7 @@ It is this intersection that has guided me towards the exciting realms of Web De
   </p>
 
   <form
-    action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+    action="https://formspree.io/f/mrgnynzb"
     method="POST"
     className="max-w-xl mx-auto space-y-6"
   >
