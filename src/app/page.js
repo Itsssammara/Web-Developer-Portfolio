@@ -13,21 +13,21 @@ const projects = [
   {
     title: "Baked by A",
     description:
-      "A sweet online home for a local baker — featuring delicious bakes, order info, and a personal touch.",
+      "Contributed to a group collaboration on a sweet online home for a local baker — featuring delicious bakes, order info, and a personal touch.",
     image: "/bba.png",
     link: "https://baked-by-a.vercel.app/"
   },
   {
     title: "Retiresmart",
     description:
-      "Professional website for a retirement coach. Designed to simplify finances with trust-building visuals and clean UI.",
+      "Part of a team effort to build a professional website for a retirement coach, designed to simplify finances with trust-building visuals and a clean UI.",
     image: "/retire.png",
     link: "https://bakedbya.vercel.app"
   },
   {
     title: "The Olive Café",
     description:
-      "Captures the charm of a local café with warm tones, a clean layout, and a smooth browsing experience across devices.",
+      "Collaborated with a group to capture the charm of a local café through warm tones, a clean layout, and a seamless cross-device experience",
     image: "/olivec.png",
     link: "https://the-olive-cafe.netlify.app/"
   },
