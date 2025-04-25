@@ -1,5 +1,3 @@
-// /* eslint-disable react/jsx-no-undef */
-/* eslint-disable @next/next/next-script-for-ga */
 'use client';
 
 import { useEffect } from 'react';
@@ -39,24 +37,30 @@ const projects = [
 
 
 export default function Home() {
+  useEffect(() => {
+    // Add the Google Analytics script dynamically
+    const script = document.createElement('script');
+    script.src = `https://www.googletagmanager.com/gtag/js?id=G-C1JGMB31NC`;
+    script.async = true;
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-C1JGMB31NC');
+    };
+
+    return () => {
+      // Clean up the script when the component is unmounted
+      document.head.removeChild(script);
+    };
+  }, []);
+
   return (
     <>
-
-<Head>
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1JGMB31NC"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-C1JGMB31NC');
-            `,
-          }}
-        />
-</Head>
-
       <Navbar />
 
 {/* Hero Section */}
