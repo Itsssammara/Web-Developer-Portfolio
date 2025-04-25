@@ -1,6 +1,9 @@
+// /* eslint-disable react/jsx-no-undef */
+/* eslint-disable @next/next/next-script-for-ga */
 'use client';
 
 import { useEffect } from 'react';
+import Head from 'next/head';
 import Navbar from './components/Navbar';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -38,6 +41,22 @@ const projects = [
 export default function Home() {
   return (
     <>
+
+<Head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1JGMB31NC"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-C1JGMB31NC');
+            `,
+          }}
+        />
+</Head>
+
       <Navbar />
 
 {/* Hero Section */}
