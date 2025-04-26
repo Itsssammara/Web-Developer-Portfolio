@@ -96,13 +96,14 @@ export default function Home() {
       Aspiring UI/UX Designer
       </p>
     </div>
-        {/* Left (Icons) */}
-        <div className="flex justify-center sm:justify-start sm:flex-col items-center sm:items-start gap-4">
-      <a href="https://github.com/Itsssammara" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 text-2xl">
-        <FaGithub />
-      </a>
-      <a href="www.linkedin.com/in/ammara-hoosen" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 text-2xl">
-        <FaLinkedin />
+       {/* Download CV Button */}
+       <div className="flex justify-center sm:justify-start sm:flex-col items-center sm:items-start gap-4">
+       <a
+        href="/Ammara Hoosen_Resume.pdf"
+        download
+        className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-all whitespace-nowrap"
+      >
+        Download CV
       </a>
     </div>
   </motion.div>
@@ -228,9 +229,12 @@ export default function Home() {
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.1, duration: 0.6 }}
   className="text-center max-w-xl mx-auto text-gray-300 text-base sm:text-lg mb-10 sm:mb-12 px-4"
->Hey there! I&apos;m Ammara, a web developer and aspiring UI/UX designer.
-I&apos;m all about grabbing opportunities as they come my way. Since forever, I&apos;ve loved the blend of art and tech, where creativity meets innovation. Since childhood, I have found myself drawn to the mesmerizing worlds of art and technology, where creativity intertwines seamlessly with innovation.
-It is this intersection that has guided me towards the exciting realms of Web Development and UI/UX design.
+>  Hey there! I&apos;m Ammara, a web developer and aspiring UI/UX designer.
+  I&apos;m all about grabbing opportunities as they come my way. Since forever, I&apos;ve loved the blend of art and tech, where creativity meets innovation. 
+  Since childhood, I have found myself drawn to the mesmerizing worlds of art and technology, where creativity intertwines seamlessly with innovation.
+  It is this intersection that has guided me towards the exciting realms of Web Development and UI/UX design. 
+  <br /><br />
+  Recently, I graduated from a coding bootcamp where I honed my skills in web development, and I am currently studying UX design at She Can Do to further deepen my understanding of user-centered design.
 </motion.p>
 
 {/* Personal Interests */}
