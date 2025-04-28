@@ -260,12 +260,12 @@ export default function Home() {
     'Vue.js',
     'Next.js',
     'Tailwind Css',
+    'Node.js',
+    'MySql',
     'WordPress',
     'Elementor',
     'Flutter',
     'Figma',
-    'Node.js',
-    'MySql',
     'Canva'
     
   ].map((skill, i) => (
