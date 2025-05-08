@@ -18,6 +18,8 @@ export default function Navbar() {
           <ul className="flex gap-9 text-white">
           <li><a href="#case-studies" className="hover:text-pink-400 transition-colors">My Work</a></li>
           <li><a href="#about" className="hover:text-pink-400 transition-colors">About</a></li>
+          <li><a href="#skills" className="hover:text-pink-400 transition-colors">Skills</a></li>
+          <li><a href="#tools" className="hover:text-pink-400 transition-colors">Tools</a></li>
           <li><a href="#contact" className="hover:text-pink-400 transition-colors">Contact</a></li>
           </ul>
         </div>
@@ -54,6 +56,8 @@ export default function Navbar() {
           <a href="#" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Home</a>
           <a href="#projects" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">My Work</a>
           <a href="#about" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">About</a>
+          <a href="#skills" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Skills</a>
+          <a href="#tools" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Tools</a>
           <a href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Contact</a>
         </div>
       </div>

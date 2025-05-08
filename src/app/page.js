@@ -215,7 +215,7 @@ export default function Home() {
 <div className="relative w-40 h-40 sm:w-36 sm:h-36 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-pink-400 shadow-lg hover:scale-105 transition-transform duration-300">
     <Image
       src="/ammarasaboutmepic.jpg"
-      alt="Ammara"
+      alt="About Ammara Hoosen"
       fill
       className="object-cover"
     />
@@ -237,46 +237,83 @@ export default function Home() {
   Recently, I graduated from a coding bootcamp where I honed my skills in web development, and I am currently studying UX design at She Can Do to further deepen my understanding of user-centered design.
 </motion.p>
 
-{/* Personal Interests */}
-<motion.h2
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6 }}
-  className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-pink-400 via-purple-500 to-blue-400 text-transparent bg-clip-text mb-8 sm:mb-10 px-4"
->
- Skills
-</motion.h2>
+{/* Skills & Tools Section */}
+<section id="skills" className="py-12 sm:py-16">
+  {/* Skills Heading */}
+  <motion.h2
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6 }}
+    className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-pink-400 via-purple-500 to-blue-400 text-transparent bg-clip-text mb-8 sm:mb-10 px-4"
+  >
+    Skills
+  </motion.h2>
 
-{/* Skills Grid */}
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ delay: 0.2, duration: 0.6 }}
-  className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto mb-12 sm:mb-16 px-4"
->
-  {[
-    'HTML/CSS',
-    'Javascript',
-    'Vue.js',
-    'Next.js',
-    'Tailwind Css',
-    'Node.js',
-    'MySql',
-    'WordPress',
-    'Elementor',
-    'Flutter',
-    'Figma',
-    'Canva'
-    
-  ].map((skill, i) => (
-    <div
-      key={i}
-      className="bg-white/10 border border-white/20 backdrop-blur-sm p-3 sm:p-4 rounded-xl text-center text-sm text-white hover:scale-105 transition-transform duration-300 shadow-md"
-    >
-      {skill}
-    </div>
-  ))}
-</motion.div>
+  {/* Skills Grid */}
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.2, duration: 0.6 }}
+    className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto mb-12 sm:mb-16 px-4"
+  >
+    {[
+      'HTML/CSS',
+      'Javascript',
+      'Vue.js',
+      'Next.js',
+      'Tailwind Css',
+      'Node.js',
+      'MySql',
+      'Flutter',
+      'UI/UX Design',
+      'Graphic Design',
+    ].map((skill, i) => (
+      <div
+        key={i}
+        className="bg-white/10 border border-white/20 backdrop-blur-sm p-3 sm:p-4 rounded-xl text-center text-sm text-white hover:scale-105 transition-transform duration-300 shadow-md"
+      >
+        {skill}
+      </div>
+    ))}
+  </motion.div>
+  </section>
+  <section id="tools" className="py-12 sm:py-16">
+  {/* Tools Heading */}
+  <motion.h2
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6 }}
+    className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-pink-400 via-purple-500 to-blue-400 text-transparent bg-clip-text mb-8 sm:mb-10 px-4"
+  >
+    Tools
+  </motion.h2>
+
+  {/* Tools Grid */}
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.2, duration: 0.6 }}
+    className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto mb-12 sm:mb-16 px-4"
+  >
+    {[
+      'Github',
+      'WordPress',
+      'Elementor',
+      'Figma',
+      'Canva',
+      'Shopify',
+      'Domain Registration Tools',
+    ].map((tool, i) => (
+      <div
+        key={i}
+        className="bg-white/10 border border-white/20 backdrop-blur-sm p-3 sm:p-4 rounded-xl text-center text-sm text-white hover:scale-105 transition-transform duration-300 shadow-md"
+      >
+        {tool}
+      </div>
+    ))}
+  </motion.div>
+</section>
+
 
 {/* Bottom SVG Wave */}
 <div className="w-screen overflow-hidden relative -mb-1">
@@ -304,7 +341,7 @@ export default function Home() {
     transition={{ duration: 0.6 }}
     className="text-4xl text-center font-bold mb-6"
   >
-    Contact Me
+    Hire Me!
   </motion.h2>
   <p className="text-center max-w-xl mx-auto text-gray-300 mb-10">
     Let’s connect! You can reach me at{' '}
