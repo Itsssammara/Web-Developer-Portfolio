@@ -87,19 +87,13 @@ export default function Home() {
         Hello, I&apos;m Ammara.
       </p>
       <p className="text-base sm:text-lg text-gray-300 tracking-wide">
-      Web Developer,
-      </p>
-      <p className="text-base sm:text-lg text-gray-300 tracking-wide">
-       Designer &
-      </p>
-      <p className="text-base sm:text-lg text-gray-300 tracking-wide">
-      Aspiring UI/UX Designer
+      Web Developer | UI/UX Designer
       </p>
     </div>
        {/* Download CV Button */}
        <div className="flex justify-center sm:justify-start sm:flex-col items-center sm:items-start gap-4">
        <a
-        href="/Ammara Hoosen_Resume.pdf"
+        href="/Ammara Hoosen_Resume (5).pdf"
         download
         className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-all whitespace-nowrap"
       >
@@ -341,10 +335,10 @@ export default function Home() {
     transition={{ duration: 0.6 }}
     className="text-4xl text-center font-bold mb-6"
   >
-    Hire Me!
+    Let’s connect! 
   </motion.h2>
   <p className="text-center max-w-xl mx-auto text-gray-300 mb-10">
-    Let’s connect! You can reach me at{' '}
+    You can reach me at{' '}
     <a href="mailto:hoosenammara@gmail.com" className="text-pink-400 underline">
       hoosenammara@gmail.com
     </a>{' '}
@@ -391,6 +385,19 @@ export default function Home() {
         required
         className="w-full px-4 py-2 bg-[#2b253b] border border-[#3a324d] rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
       ></textarea>
+    </div>
+        {/* ✅ Privacy Checkbox */}
+    <div className="flex items-start space-x-2 text-sm text-gray-300">
+      <input
+        type="checkbox"
+        id="privacy"
+        name="privacy"
+        required
+        className="mt-1 accent-pink-500"
+      />
+      <label htmlFor="privacy">
+        I understand that my information will remain confidential and will not be shared with any third party.
+      </label>
     </div>
     <button
       type="submit"

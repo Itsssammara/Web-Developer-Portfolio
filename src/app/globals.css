@@ -81,3 +81,16 @@ html {
 * {
   cursor: none;
 }
+
+.privacy-checkbox {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc; /* Adjust based on your color palette */
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.privacy-checkbox input {
+  margin-top: 4px;
+}

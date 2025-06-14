@@ -7,7 +7,7 @@ export default function Footer() {
 
         <div className="text-center md:text-left">
           <p className="font-semibold text-white">© {new Date().getFullYear()} Ammara Hoosen</p>
-          <p className="text-gray-400">Web Developer · Web Designer · UI/UX Designer · Cape Town, ZA</p>
+          <p className="text-gray-400">Web Developer · UI/UX Designer · Cape Town, ZA</p>
         </div>
 
         <div className="flex gap-6">
