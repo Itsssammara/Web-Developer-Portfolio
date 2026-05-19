@@ -12,11 +12,11 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const projects = [
   {
-    title: "The Olive Café",
+    title: "Dr Imthiaz Hoosen - Psychiatrist",
     description:
-      "Collaborated with a group to capture the charm of a local café through warm tones, a clean layout, and a seamless cross-device experience",
-    image: "/olivec.png",
-    link: "https://the-olive-cafe.netlify.app/"
+      "Developed a professional website for Dr Imthiaz Hoosen, helping establish his online presence and streamline patient onboarding through digital forms.",
+    image: "/public/Dr-Imthiaz-Hoosen.png",
+    link: "https://drimthiazhoosen.co.za/"
   },
   {
     title: "Baked by A",
@@ -24,13 +24,6 @@ const projects = [
       "Contributed to a group collaboration on a sweet online home for a local baker — featuring delicious bakes, order info, and a personal touch.",
     image: "/bba.png",
     link: "https://baked-by-a.vercel.app/"
-  },
-  {
-    title: "Retire Smart",
-    description:
-      "Part of a team effort to build a professional website for a retirement coach, designed to simplify finances with trust-building visuals and a clean UI.",
-    image: "/retire.png",
-    link: "https://retiresmart.co.za/"
   },
 ];
 
@@ -87,13 +80,13 @@ export default function Home() {
         Hello, I&apos;m Ammara.
       </p>
       <p className="text-base sm:text-lg text-gray-300 tracking-wide">
-      Web Developer | UI/UX Designer
+      Web Developer | Social Media Manager
       </p>
     </div>
        {/* Download CV Button */}
        <div className="flex justify-center sm:justify-start sm:flex-col items-center sm:items-start gap-4">
        <a
-        href="/Ammara Hoosen_Resume (5).pdf"
+        href="/"
         download
         className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-all whitespace-nowrap"
       >
@@ -208,7 +201,7 @@ export default function Home() {
 >
 <div className="relative w-40 h-40 sm:w-36 sm:h-36 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-pink-400 shadow-lg hover:scale-105 transition-transform duration-300">
     <Image
-      src="/ammarasaboutmepic.jpg"
+      src="/public/Ammara-Profile.jpeg"
       alt="About Ammara Hoosen"
       fill
       className="object-cover"
@@ -223,12 +216,9 @@ export default function Home() {
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.1, duration: 0.6 }}
   className="text-center max-w-xl mx-auto text-gray-300 text-base sm:text-lg mb-10 sm:mb-12 px-4"
->  Hey there! I&apos;m Ammara, a web developer and aspiring UI/UX designer.
-  I&apos;m all about grabbing opportunities as they come my way. Since forever, I&apos;ve loved the blend of art and tech, where creativity meets innovation. 
-  Since childhood, I have found myself drawn to the mesmerizing worlds of art and technology, where creativity intertwines seamlessly with innovation.
-  It is this intersection that has guided me towards the exciting realms of Web Development and UI/UX design. 
-  <br /><br />
-  Recently, I graduated from a coding bootcamp where I honed my skills in web development, and I am currently studying UX design at She Can Do to further deepen my understanding of user-centered design.
+>  Hey there! I&apos;m Ammara, a web developer and social media manager with experience managing 9 clients simultaneously at [webXtreme]. 
+My role involved social media management, content creation, Meta ads, client communication, reporting and website updates across multiple brands and industries. 
+With a background in web development and UX design studies, I enjoy combining creativity, strategy, and technology to build strong digital experiences.
 </motion.p>
 
 {/* Skills & Tools Section */}
@@ -260,7 +250,9 @@ export default function Home() {
       'MySql',
       'Flutter',
       'UI/UX Design',
-      'Graphic Design',
+      'Content Creation',
+      'Client & Project Management',
+      'Meta Advertising'
     ].map((skill, i) => (
       <div
         key={i}
@@ -290,12 +282,12 @@ export default function Home() {
     className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto mb-12 sm:mb-16 px-4"
   >
     {[
-      'Github',
       'WordPress',
       'Elementor',
       'Figma',
       'Canva',
-      'Shopify',
+      'CapCut',
+      'Meta Business Suite',
       'Domain Registration Tools',
     ].map((tool, i) => (
       <div
