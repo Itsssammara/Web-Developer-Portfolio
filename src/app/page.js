@@ -15,7 +15,7 @@ const projects = [
     title: "Dr Imthiaz Hoosen - Psychiatrist",
     description:
       "Developed a professional website for Dr Imthiaz Hoosen, helping establish his online presence and streamline patient onboarding through digital forms.",
-    image: "/public/Dr-Imthiaz-Hoosen.png",
+    image: "/Dr-Imthiaz-Hoosen.png",
     link: "https://drimthiazhoosen.co.za/"
   },
   {
@@ -201,7 +201,7 @@ export default function Home() {
 >
 <div className="relative w-40 h-40 sm:w-36 sm:h-36 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-pink-400 shadow-lg hover:scale-105 transition-transform duration-300">
     <Image
-      src="/public/Ammara-Profile.jpeg"
+      src="/Ammara-Profile.jpeg"
       alt="About Ammara Hoosen"
       fill
       className="object-cover"
