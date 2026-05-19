@@ -218,7 +218,7 @@ export default function Home() {
   className="text-center max-w-xl mx-auto text-gray-300 text-base sm:text-lg mb-10 sm:mb-12 px-4"
 >  Hey there! I&apos;m Ammara, a web developer and social media manager with experience managing 9 clients simultaneously at WebXtreme. 
 My role involved social media management, content creation, Meta ads, client communication, reporting and website updates across multiple brands and industries. 
-<br> With a background in web development and UX design studies, I enjoy combining creativity, strategy, and technology to build strong digital experiences.
+<br></br>With a background in web development and UX design studies, I enjoy combining creativity, strategy, and technology to build strong digital experiences.
 </motion.p>
 
 {/* Skills & Tools Section */}
